@@ -13,6 +13,12 @@
 		FDED145926AFFFA2004B9202 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDED145726AFFFA2004B9202 /* Main.storyboard */; };
 		FDED145B26AFFFA5004B9202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDED145A26AFFFA5004B9202 /* Assets.xcassets */; };
 		FDED145E26AFFFA5004B9202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDED145C26AFFFA5004B9202 /* LaunchScreen.storyboard */; };
+		FDED146626B1877E004B9202 /* HomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED146526B1877E004B9202 /* HomeCollectionViewController.swift */; };
+		FDED146826B187BA004B9202 /* HabitCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED146726B187BA004B9202 /* HabitCollectionViewController.swift */; };
+		FDED146A26B187D0004B9202 /* UserCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED146926B187D0004B9202 /* UserCollectionViewController.swift */; };
+		FDED146C26B187E9004B9202 /* LogHabitCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED146B26B187E9004B9202 /* LogHabitCollectionViewController.swift */; };
+		FDED146F26B18BEF004B9202 /* HabitDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED146E26B18BEF004B9202 /* HabitDetailViewController.swift */; };
+		FDED147126B18C01004B9202 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED147026B18C01004B9202 /* UserDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		FDED145A26AFFFA5004B9202 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDED145D26AFFFA5004B9202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDED145F26AFFFA5004B9202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDED146526B1877E004B9202 /* HomeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewController.swift; sourceTree = "<group>"; };
+		FDED146726B187BA004B9202 /* HabitCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCollectionViewController.swift; sourceTree = "<group>"; };
+		FDED146926B187D0004B9202 /* UserCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCollectionViewController.swift; sourceTree = "<group>"; };
+		FDED146B26B187E9004B9202 /* LogHabitCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogHabitCollectionViewController.swift; sourceTree = "<group>"; };
+		FDED146E26B18BEF004B9202 /* HabitDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailViewController.swift; sourceTree = "<group>"; };
+		FDED147026B18C01004B9202 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +72,25 @@
 				FDED145326AFFFA2004B9202 /* SceneDelegate.swift */,
 				FDED145526AFFFA2004B9202 /* ViewController.swift */,
 				FDED145726AFFFA2004B9202 /* Main.storyboard */,
+				FDED146D26B187F4004B9202 /* View Controllers */,
 				FDED145A26AFFFA5004B9202 /* Assets.xcassets */,
 				FDED145C26AFFFA5004B9202 /* LaunchScreen.storyboard */,
 				FDED145F26AFFFA5004B9202 /* Info.plist */,
 			);
 			path = Habits;
+			sourceTree = "<group>";
+		};
+		FDED146D26B187F4004B9202 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FDED146E26B18BEF004B9202 /* HabitDetailViewController.swift */,
+				FDED147026B18C01004B9202 /* UserDetailViewController.swift */,
+				FDED146526B1877E004B9202 /* HomeCollectionViewController.swift */,
+				FDED146726B187BA004B9202 /* HabitCollectionViewController.swift */,
+				FDED146926B187D0004B9202 /* UserCollectionViewController.swift */,
+				FDED146B26B187E9004B9202 /* LogHabitCollectionViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +163,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDED146C26B187E9004B9202 /* LogHabitCollectionViewController.swift in Sources */,
 				FDED145626AFFFA2004B9202 /* ViewController.swift in Sources */,
+				FDED147126B18C01004B9202 /* UserDetailViewController.swift in Sources */,
+				FDED146626B1877E004B9202 /* HomeCollectionViewController.swift in Sources */,
+				FDED146826B187BA004B9202 /* HabitCollectionViewController.swift in Sources */,
+				FDED146F26B18BEF004B9202 /* HabitDetailViewController.swift in Sources */,
 				FDED145226AFFFA2004B9202 /* AppDelegate.swift in Sources */,
 				FDED145426AFFFA2004B9202 /* SceneDelegate.swift in Sources */,
+				FDED146A26B187D0004B9202 /* UserCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
