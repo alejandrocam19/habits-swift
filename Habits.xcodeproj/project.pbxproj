@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD0C997E26B3EC54000C4979 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C997D26B3EC54000C4979 /* Habit.swift */; };
+		FD0C998026B3EEE5000C4979 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C997F26B3EEE5000C4979 /* Color.swift */; };
+		FD0C998226B4067A000C4979 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C998126B4067A000C4979 /* APIRequest.swift */; };
 		FDED145226AFFFA2004B9202 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED145126AFFFA2004B9202 /* AppDelegate.swift */; };
 		FDED145426AFFFA2004B9202 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED145326AFFFA2004B9202 /* SceneDelegate.swift */; };
 		FDED145626AFFFA2004B9202 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED145526AFFFA2004B9202 /* ViewController.swift */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD0C997D26B3EC54000C4979 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		FD0C997F26B3EEE5000C4979 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		FD0C998126B4067A000C4979 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 		FDED144E26AFFFA2004B9202 /* Habits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Habits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDED145126AFFFA2004B9202 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDED145326AFFFA2004B9202 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +78,9 @@
 				FDED145326AFFFA2004B9202 /* SceneDelegate.swift */,
 				FDED145526AFFFA2004B9202 /* ViewController.swift */,
 				FDED145726AFFFA2004B9202 /* Main.storyboard */,
+				FD0C997D26B3EC54000C4979 /* Habit.swift */,
+				FD0C998126B4067A000C4979 /* APIRequest.swift */,
+				FD0C997F26B3EEE5000C4979 /* Color.swift */,
 				FDED146D26B187F4004B9202 /* View Controllers */,
 				FDED145A26AFFFA5004B9202 /* Assets.xcassets */,
 				FDED145C26AFFFA5004B9202 /* LaunchScreen.storyboard */,
@@ -165,12 +174,15 @@
 			files = (
 				FDED146C26B187E9004B9202 /* LogHabitCollectionViewController.swift in Sources */,
 				FDED145626AFFFA2004B9202 /* ViewController.swift in Sources */,
+				FD0C998026B3EEE5000C4979 /* Color.swift in Sources */,
 				FDED147126B18C01004B9202 /* UserDetailViewController.swift in Sources */,
 				FDED146626B1877E004B9202 /* HomeCollectionViewController.swift in Sources */,
 				FDED146826B187BA004B9202 /* HabitCollectionViewController.swift in Sources */,
 				FDED146F26B18BEF004B9202 /* HabitDetailViewController.swift in Sources */,
+				FD0C997E26B3EC54000C4979 /* Habit.swift in Sources */,
 				FDED145226AFFFA2004B9202 /* AppDelegate.swift in Sources */,
 				FDED145426AFFFA2004B9202 /* SceneDelegate.swift in Sources */,
+				FD0C998226B4067A000C4979 /* APIRequest.swift in Sources */,
 				FDED146A26B187D0004B9202 /* UserCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
